@@ -23,6 +23,9 @@ void loop() {
   tft.setCursor(20, 50); 
   tft.setTextColor(ST77XX_GREEN); 
   tft.setTextSize(3); 
-  tft.print("EAZYTRONIC");
+  tft.print("Testing");
+  tft.setCursor(20, 80); 
+  tft.setTextColor(ST77XX_WHITE); 
+  tft.print("now!");  
   delay(2000);
   }
